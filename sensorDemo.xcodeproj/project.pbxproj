@@ -3,25 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33B645289B1B58B60A41BCCB /* Pods_sensorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3FF4C7972B87C2CF488CF9 /* Pods_sensorDemo.framework */; };
 		6A4B5DA8256BAE290098E1BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B5DA7256BAE290098E1BD /* AppDelegate.m */; };
-		6A4B5DAB256BAE290098E1BD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B5DAA256BAE290098E1BD /* SceneDelegate.m */; };
 		6A4B5DAE256BAE290098E1BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B5DAD256BAE290098E1BD /* ViewController.m */; };
 		6A4B5DB1256BAE290098E1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4B5DAF256BAE290098E1BD /* Main.storyboard */; };
 		6A4B5DB3256BAE2B0098E1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4B5DB2256BAE2B0098E1BD /* Assets.xcassets */; };
 		6A4B5DB6256BAE2B0098E1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4B5DB4256BAE2B0098E1BD /* LaunchScreen.storyboard */; };
 		6A4B5DB9256BAE2B0098E1BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B5DB8256BAE2B0098E1BD /* main.m */; };
+		6A4B5DC8256BB0A70098E1BD /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B5DC7256BB0A70098E1BD /* MyTableViewCell.m */; };
+		6A4B5E0D256CE9220098E1BD /* S3_OTA_ES002_20201028_v1_0_18.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6A4B5E0B256CE9210098E1BD /* S3_OTA_ES002_20201028_v1_0_18.bin */; };
+		6A4B5E0E256CE9220098E1BD /* S4_OTA_ES009_20200909_v1_0_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6A4B5E0C256CE9210098E1BD /* S4_OTA_ES009_20200909_v1_0_0.bin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B3FF4C7972B87C2CF488CF9 /* Pods_sensorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sensorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4A2597D0CAB31BC983B8DD /* Pods-sensorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensorDemo.debug.xcconfig"; path = "Target Support Files/Pods-sensorDemo/Pods-sensorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6A4B5DA3256BAE290098E1BD /* sensorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sensorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4B5DA6256BAE290098E1BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A4B5DA7256BAE290098E1BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6A4B5DA9256BAE290098E1BD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		6A4B5DAA256BAE290098E1BD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		6A4B5DAC256BAE290098E1BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6A4B5DAD256BAE290098E1BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A4B5DB0256BAE290098E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +32,11 @@
 		6A4B5DB5256BAE2B0098E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A4B5DB7256BAE2B0098E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A4B5DB8256BAE2B0098E1BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A4B5DC6256BB0A70098E1BD /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		6A4B5DC7256BB0A70098E1BD /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		6A4B5E0B256CE9210098E1BD /* S3_OTA_ES002_20201028_v1_0_18.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = S3_OTA_ES002_20201028_v1_0_18.bin; sourceTree = SOURCE_ROOT; };
+		6A4B5E0C256CE9210098E1BD /* S4_OTA_ES009_20200909_v1_0_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = S4_OTA_ES009_20200909_v1_0_0.bin; sourceTree = SOURCE_ROOT; };
+		89016D78EE263661FCACD368 /* Pods-sensorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensorDemo.release.xcconfig"; path = "Target Support Files/Pods-sensorDemo/Pods-sensorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B645289B1B58B60A41BCCB /* Pods_sensorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		204B3C91BC1E49E87766E68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B3FF4C7972B87C2CF488CF9 /* Pods_sensorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678259E29C420CCF1008BE5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B4A2597D0CAB31BC983B8DD /* Pods-sensorDemo.debug.xcconfig */,
+				89016D78EE263661FCACD368 /* Pods-sensorDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6A4B5D9A256BAE290098E1BD = {
 			isa = PBXGroup;
 			children = (
 				6A4B5DA5256BAE290098E1BD /* sensorDemo */,
 				6A4B5DA4256BAE290098E1BD /* Products */,
+				678259E29C420CCF1008BE5F /* Pods */,
+				204B3C91BC1E49E87766E68E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +89,14 @@
 		6A4B5DA5256BAE290098E1BD /* sensorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6A4B5E0B256CE9210098E1BD /* S3_OTA_ES002_20201028_v1_0_18.bin */,
+				6A4B5E0C256CE9210098E1BD /* S4_OTA_ES009_20200909_v1_0_0.bin */,
 				6A4B5DA6256BAE290098E1BD /* AppDelegate.h */,
 				6A4B5DA7256BAE290098E1BD /* AppDelegate.m */,
-				6A4B5DA9256BAE290098E1BD /* SceneDelegate.h */,
-				6A4B5DAA256BAE290098E1BD /* SceneDelegate.m */,
 				6A4B5DAC256BAE290098E1BD /* ViewController.h */,
 				6A4B5DAD256BAE290098E1BD /* ViewController.m */,
+				6A4B5DC6256BB0A70098E1BD /* MyTableViewCell.h */,
+				6A4B5DC7256BB0A70098E1BD /* MyTableViewCell.m */,
 				6A4B5DAF256BAE290098E1BD /* Main.storyboard */,
 				6A4B5DB2256BAE2B0098E1BD /* Assets.xcassets */,
 				6A4B5DB4256BAE2B0098E1BD /* LaunchScreen.storyboard */,
@@ -83,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4B5DBC256BAE2B0098E1BD /* Build configuration list for PBXNativeTarget "sensorDemo" */;
 			buildPhases = (
+				6927136E2F1E6DBAEFDA09C8 /* [CP] Check Pods Manifest.lock */,
 				6A4B5D9F256BAE290098E1BD /* Sources */,
 				6A4B5DA0256BAE290098E1BD /* Frameworks */,
 				6A4B5DA1256BAE290098E1BD /* Resources */,
+				895C2C274D91190656851D09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,10 +167,54 @@
 				6A4B5DB6256BAE2B0098E1BD /* LaunchScreen.storyboard in Resources */,
 				6A4B5DB3256BAE2B0098E1BD /* Assets.xcassets in Resources */,
 				6A4B5DB1256BAE290098E1BD /* Main.storyboard in Resources */,
+				6A4B5E0E256CE9220098E1BD /* S4_OTA_ES009_20200909_v1_0_0.bin in Resources */,
+				6A4B5E0D256CE9220098E1BD /* S3_OTA_ES002_20201028_v1_0_18.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6927136E2F1E6DBAEFDA09C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sensorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895C2C274D91190656851D09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sensorDemo/Pods-sensorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sensorDemo/Pods-sensorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sensorDemo/Pods-sensorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A4B5D9F256BAE290098E1BD /* Sources */ = {
@@ -146,9 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A4B5DAE256BAE290098E1BD /* ViewController.m in Sources */,
+				6A4B5DC8256BB0A70098E1BD /* MyTableViewCell.m in Sources */,
 				6A4B5DA8256BAE290098E1BD /* AppDelegate.m in Sources */,
 				6A4B5DB9256BAE2B0098E1BD /* main.m in Sources */,
-				6A4B5DAB256BAE290098E1BD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +364,14 @@
 		};
 		6A4B5DBD256BAE2B0098E1BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4A2597D0CAB31BC983B8DD /* Pods-sensorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WTAA22BLH;
 				INFOPLIST_FILE = sensorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +384,14 @@
 		};
 		6A4B5DBE256BAE2B0098E1BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89016D78EE263661FCACD368 /* Pods-sensorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WTAA22BLH;
 				INFOPLIST_FILE = sensorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

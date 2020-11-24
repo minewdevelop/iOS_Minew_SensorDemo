@@ -1,0 +1,16 @@
+PODS:
+  - MTSensorKit (1.0.5)
+
+DEPENDENCIES:
+  - MTSensorKit
+
+SPEC REPOS:
+  trunk:
+    - MTSensorKit
+
+SPEC CHECKSUMS:
+  MTSensorKit: 7df47b87d3cb1e002f9f4b20ba15ce2a9d1d7d7c
+
+PODFILE CHECKSUM: 56e5b99d0b9349d84954de3d4e955eeb2b9b4ba4
+
+COCOAPODS: 1.10.0
